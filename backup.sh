@@ -1,0 +1,1 @@
+/usr/bin/mysqldump -h <host_address> -u <user_id> -p<password> <database> <table> > <outdir/file>
