@@ -36,13 +36,7 @@ if __name__ == '__main__':
 
     container = client.containers.get('mydump')
 
-
     ret = container.exec_run(cmd_l)
     print("ret:",ret[1].decode('utf-8'))
-#    for container_name in restart_container_name:
-#        if restart_container(container_name):
-#            print(f"{container_name} container restarted !")
-#        else:
-#            print(f"{container_name} Ignored")
 
     
